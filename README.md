@@ -11,4 +11,4 @@
 
 # Little Coffee Shop
 
-#### Visit Web Application - https://little-coffee-shop.herokuapp.com/
+#### Visit Web Application - https://little-coffee.herokuapp.com/
