@@ -1,5 +1,5 @@
 %div{class: "item-#{item.id} item small" }
-  = item_image(item, :thumb, class: "#{item.photo} img-box")
+  = item_image(item, :thumb, class: "#{item.photo} img-box", :default_image => "assets/images/large/coffee-beans-shot.png")
   %h3= link_to item.name, item_path(item), class: 'center-block text-center'
   %h4= number_to_currency(item.price)
   = render partial: "items/#{item.status}", locals: {item: item}

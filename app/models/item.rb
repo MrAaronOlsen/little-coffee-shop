@@ -17,4 +17,5 @@ class Item < ApplicationRecord
   validates_numericality_of :price, greater_than: 0
 
   enum status: ['active', 'retired']
+
 end
